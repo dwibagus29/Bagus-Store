@@ -1,0 +1,41 @@
+.btn-buy {
+  margin-top: 4px;
+  width: 70px;
+  padding: 4px 0;
+  border: none;
+  color: white;
+  background-color: rgba(0, 96, 215, 1);
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+
+.col:hover {
+  cursor: default;
+  transform: none;
+  -webkit-transform: none;
+  -moz-transform: none;
+  -ms-transform: none;
+  -o-transform: none;
+}
+
+.btn-buy:hover {
+  cursor: pointer;
+  transform: scale(110%);
+  -webkit-transform: scale(120%);
+  -moz-transform: scale(120%);
+  -ms-transform: scale(120%);
+  -o-transform: scale(120%);
+}
+
+@media screen and (max-width: 487px) {
+  .btn-buy:hover {
+    transform: translateY(-5%);
+    -webkit-transform: translateY(-5%);
+    -moz-transform: translateY(-5%);
+    -ms-transform: translateY(-5%);
+    -o-transform: translateY(-5%);
+  }
+}
